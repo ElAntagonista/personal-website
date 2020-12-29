@@ -48,11 +48,11 @@ talksPaginate = 8 # items per page
 talksGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 
 # whoami: usage - home page sidebar, single page bottom of post. all values can be empty
-myname = "Kris"
+myname = "kris"
 email = "zzossig@gmail.com"
 whoami = "Tinkerer, DevSecOps entusiast"
 bioImageUrl = "" # image url like "http//..." or "images/anyfoldername/mybioimage.jpg" If not set, we find a avatar image in root/static/images/whoami/avatar.(png|jpg|svg)
-useGravatar = false # we use this option highest priority
+useGravatar = true # we use this option highest priority
 link = "https://github.com/zzossig/hugo-theme-zzo"
 
 # sidebar
@@ -140,8 +140,6 @@ commento = false
 [socialOptions] # if set, social icons will show up.
   email = "mailto:your@email.com"
   phone = ""
-  facebook = "http://example.org/"
-  twitter = "http://example.org/"
   github = "https://github.com/zzossig/hugo-theme-zzo"
   stack-overflow = ""
   instagram = ""
@@ -187,6 +185,10 @@ commento = false
 # possible share name: "facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line", "whatsapp", "telegram"
 [[share]]
   name = "facebook"
+[[share]]
+  name = "reddit"
+[[share]]
+  name = "linkedin"
 [[share]]
   name = "twitter"
   username = ""
