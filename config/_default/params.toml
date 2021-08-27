@@ -14,9 +14,9 @@ notAllowedTypesInArchive = ["about", "talks", "showcase"] # not allowed page typ
 notAllowedTypesInHomeFeed = ["about", "archive", "contact", "talks", "showcase", "publication", "presentation", "resume", "gallery"]
 enablePinnedPosts = true # show pinned posts first in the main view
 
-viewportSize = "normal" # widest, wider, wide, normal, narrow
+viewportSize = "wide" # widest, wider, wide, normal, narrow
 enableUiAnimation = true
-hideSingleContentsWhenJSDisabled = false
+hideSingleContentsWhenJSDisabled = true
 minItemsToShowInTagCloud = 1 # Minimum items to show in tag cloud
 
 # appbar
@@ -35,7 +35,7 @@ showMobileMenuTerms = ["tags", "categories", "series"]
 enableThemeChange = true # site color theme
 
 # body
-enableBreadcrumb = false # breadcrumb for list, single page
+enableBreadcrumb = true # breadcrumb for list, single page
 enableSearch = true # site search with Fuse
 enableSearchHighlight = true # when true, search keyword will be highlighted
 enableGoToTop = true # scroll to top
@@ -49,11 +49,10 @@ talksGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 
 # whoami: usage - home page sidebar, single page bottom of post. all values can be empty
 myname = "kris"
-email = "zzossig@gmail.com"
 whoami = "Tinkerer, DevSecOps entusiast"
 bioImageUrl = "" # image url like "http//..." or "images/anyfoldername/mybioimage.jpg" If not set, we find a avatar image in root/static/images/whoami/avatar.(png|jpg|svg)
 useGravatar = false # we use this option highest priority
-link = "https://github.com/zzossig/hugo-theme-zzo"
+link = "https://github.com/ElAntagonista"
 
 # sidebar
 enableBio = true # in home page sidebar
@@ -78,7 +77,7 @@ enableSidebarPostsByOrder = false # another lists in the sidebar
 showPoweredBy = true # show footer text: Powered by Hugo and Zzo theme
 showFeedLinks = true # RSS Feed 
 showSocialLinks = true # email, facebook, twitter ...
-enableLangChange = true # show button at bottom left of footer.
+enableLangChange = false # show button at bottom left of footer.
 
 # service
 googleTagManager = "" # GTM-XXXXXX
@@ -93,43 +92,14 @@ enableComment = true
 disqus_shortname = "" 
 commento = false
 
-[gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
-  clientId = ""           # Your client ID
-  clientSecret = ""       # Your client secret
-
 [utterances]       # https://utteranc.es/
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
-  message = ""      # Optional
-  link = ""         # Optional
+  owner = "ElAntagonista"              # Your GitHub ID
+  repo = "personal-website"               # The repo to store comments
+  message = "Drop a comment"      # Optional
+  theme="github-dark"
+  label="comment"
 
-[gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
-  clientId = ""           # Your client ID
-  clientSecret = ""       # Your client secret
 
-# Valine.
-# You can get your appid and appkey from https://leancloud.cn
-# more info please open https://valine.js.org
-[valine]
-  enable = false
-  appId = '你的appId'
-  appKey = '你的appKey'
-  notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
-  verify = false # Verification code
-  avatar = 'mm' 
-  placeholder = '说点什么吧...'
-  visitor = false
-
-[changyan]
-  changyanAppid = ""        # Changyan app id             # 畅言
-  changyanAppkey = ""       # Changyan app key
-
-[livere]
-  livereUID = ""            # LiveRe UID                  # 来必力
 
 # Isso: https://posativ.org/isso/
 [isso]
@@ -140,7 +110,7 @@ commento = false
 [socialOptions] # if set, social icons will show up.
   email = "mailto:your@email.com"
   phone = ""
-  github = "https://github.com/zzossig/hugo-theme-zzo"
+  github = "https://github.com/ElAntagonista"
   stack-overflow = ""
   instagram = ""
   google-plus = ""

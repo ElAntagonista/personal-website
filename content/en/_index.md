@@ -2,14 +2,29 @@
 header:
   - type: typewriter
     methods:
-      - typeString: Hello world!
-      - pauseFor: 2500
+      - typeString: Hi, I'm Kris
+      - pauseFor: 1000 
       - deleteAll: true
-      - typeString: Strings can be removed
-      - pauseFor: 2500
-      - deleteChars: 7
-      - typeString: <strong>altered!</strong>
-      - pauseFor: 2500
+      - typeString: I write <strong><i>mostly</i></strong> about 
+      - pauseFor: 1500
+      - deleteAll: true
+      - typeString: <strong>cloud</strong>
+       
+      - deleteAll: true
+      - pauseFor: 800
+      - deleteAll: true
+       
+      - typeString: <strong>devops</strong>
+      - pauseFor: 800
+      - deleteAll: true
+      
+      - typeString: <strong>automation</strong>
+      - pauseFor: 800
+      - deleteAll: true
+     
+      - typeString: <strong>security</strong>
+      - pauseFor: 800
+      - deleteAll: true
     options:
       loop: true
       autoStart: false
