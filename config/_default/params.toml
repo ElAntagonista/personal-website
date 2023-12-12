@@ -1,13 +1,13 @@
 logoText = ""
 logoType = "short" # long, short -> short: squre shape includes logo text, long: rectangle shape not includes logo text
 logo = true # Logo that appears in the site navigation bar.
-description = "The Zzo theme for Hugo example site." # for SEO
-custom_css = [] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
+description = "" # for SEO
+custom_css = ["css/styles.css"] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
 useFaviconGenerator = true # https://www.favicon-generator.org/
 languagedir = "ltr" # ltr / rtl
 
-themeOptions = ["dark", "light"] # select options for site color theme
+themeOptions = ["dark"] # select options for site color theme
 notAllowedTypesInHome = ["contact", "talks", "about", "showcase"] # not allowed page types in home page. type can be set in front matter or default to folder name.
 notAllowedTypesInHomeSidebar = ["about", "archive", "showcase"] # not allowed page types in home page sidebar(recent post titles).
 notAllowedTypesInArchive = ["about", "talks", "showcase"] # not allowed page types in archive page
@@ -24,7 +24,7 @@ enableAppbarSearchIcon = true
 enableAppbarLangIcon = false
 
 # header
-homeHeaderType = "typewriter" # text, img, slide, typewriter
+homeHeaderType = "text" # text, img, slide, typewriter
 
 hideHomeHeaderWhenMobile = false
 
@@ -32,7 +32,7 @@ hideHomeHeaderWhenMobile = false
 showMobileMenuTerms = ["tags", "categories", "series"]
 
 # navbar
-enableThemeChange = true # site color theme
+enableThemeChange = false # site color theme
 
 # body
 enableBreadcrumb = true # breadcrumb for list, single page
@@ -49,10 +49,10 @@ talksGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 
 # whoami: usage - home page sidebar, single page bottom of post. all values can be empty
 myname = "kris"
-whoami = "Tinkerer, DevSecOps entusiast"
+whoami = "Needle mover, Tinkerer, Software engineering geek"
 bioImageUrl = "" # image url like "http//..." or "images/anyfoldername/mybioimage.jpg" If not set, we find a avatar image in root/static/images/whoami/avatar.(png|jpg|svg)
 useGravatar = false # we use this option highest priority
-link = "https://github.com/ElAntagonista"
+link = ""
 
 # sidebar
 enableBio = true # in home page sidebar
@@ -74,7 +74,7 @@ tocLevels = ["h2", "h3", "h4"] # minimum h2, maximum h4 in your article
 enableSidebarPostsByOrder = false # another lists in the sidebar
 
 # footer
-showPoweredBy = true # show footer text: Powered by Hugo and Zzo theme
+showPoweredBy = false # show footer text: Powered by Hugo and Zzo theme
 showFeedLinks = true # RSS Feed 
 showSocialLinks = true # email, facebook, twitter ...
 enableLangChange = false # show button at bottom left of footer.
@@ -113,6 +113,7 @@ commento = false
   github = "https://github.com/ElAntagonista"
   stack-overflow = ""
   instagram = ""
+  twitter = ""
   google-plus = ""
   youtube = ""
   medium = ""

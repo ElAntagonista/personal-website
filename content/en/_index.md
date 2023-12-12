@@ -1,4 +1,24 @@
 ---
+homeHeaderType: text
+header:
+  - type: text
+    height: 200
+    paddingX: 50
+    paddingY: 0
+    align: center
+    title:
+      - Welcome to my brain dump
+    subtitle:
+      - Ideas expressed here are mostly my own
+    titleColor: #123456, red
+    titleShadow: true
+    titleFontSize: 36
+    subtitleColor: # #123456, red
+    subtitleCursive: false
+    subtitleFontSize: 16
+    spaceBetweenTitleSubtitle: 10
+---
+<!-- ---
 header:
   - type: typewriter
     methods:
@@ -34,4 +54,4 @@ header:
     fontSize: 30
     fontColor: #fcfcfa 
 ...
----
+--- -->
